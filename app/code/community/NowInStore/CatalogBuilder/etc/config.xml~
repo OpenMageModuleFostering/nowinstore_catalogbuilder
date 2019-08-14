@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Chiragdodia_Mymodule>
+            <version>0.0.1</version>    <!-- Version number of your module -->
+        </Chiragdodia_Mymodule>
+    </modules>
+    <frontend>
+        <routers>
+            <mymodule>
+                <use>standard</use>
+                <args>
+                    <module>NowInStore_CatalogBuilder</module>
+                    <frontName>catalogbuilder</frontName>
+                </args>
+            </mymodule>
+        </routers>
+    </frontend>
+</config>

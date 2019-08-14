@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+    <name>NowInStore_CatalogBuilder</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License (GPL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Users can create beautiful customized catalogs and flyers to sell online or offline.</summary>
+    <description>Now In Store will guide you in your process as you create and use catalogs and flyers and help you gain control over your sales.&#xD;
+&#xD;
+Our catalog and flyer builder automatically creates professional and customizable catalogs and flyers for your Magento listings in under 30 seconds. Our blog and online-chat experts are on hand that share tips and tricks on how you can use catalogs and flyers to grow your sales.&#xD;
+&#xD;
+&#xD;
+With a few clicks, import all of your Magento products into a beautiful drag and drop interface. Easily choose and organize each page of your catalog or flyer, use different layouts, customize your front and back covers and add a wholesale contract and order forms.&#xD;
+</description>
+    <notes>First release</notes>
+    <authors><author><name>Kwaku Zigah</name><user>kwaku</user><email>kwaku.zigah@nowinstore.com</email></author></authors>
+    <date>2015-07-29</date>
+    <time>15:37:56</time>
+    <contents><target name="magecommunity"><dir name="NowInStore"><dir name="CatalogBuilder"><dir name="controllers"><file name="AuthController.php" hash="d64acfc32d9db86b3bb89ac537e2ea91"/><file name="CategoriesController.php" hash="8ac0b1276609c3498926ffe9632a4977"/><file name="ProductsController.php" hash="36dfdb8cd9ff135b3538251aa899bafd"/><file name="ProfileController.php" hash="05679442c999971bad022b2f580331d9"/></dir><dir name="etc"><file name="adminhtml.xml" hash="3d7e6a6f47a3a37945603d5620a49c22"/><file name="config.xml" hash="b99c8b2e611beeb92689696b77cdb917"/><file name="config.xml~" hash="fa9eaa937860779735ddee5bc4ec7f5f"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.5.0</min><max>1.9</max></package></required></dependencies>
+</package>

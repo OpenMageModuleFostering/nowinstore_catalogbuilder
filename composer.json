@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/NowInStore_CatalogBuilder",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License-(GPL)",
+    "homepage": "",
+    "description": "Users can create beautiful customized catalogs and flyers to sell online or offline.",
+    "authors": [
+    {
+        "name": "Kwaku Zigah",
+        "email": "kwaku.zigah@nowinstore.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
