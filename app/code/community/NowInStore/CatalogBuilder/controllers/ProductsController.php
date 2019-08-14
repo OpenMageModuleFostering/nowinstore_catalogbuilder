@@ -16,7 +16,7 @@ class NowInStore_CatalogBuilder_ProductsController extends Mage_Core_Controller_
                             ->addFieldToFilter('visibility', Mage_Catalog_Model_Product_Visibility::VISIBILITY_BOTH)
                             ->setPageSize(50)
                             ->setCurPage($page)
-                            ->addAttributeToSelect(array('id', 'name', 'sku', 'price', 'image'));
+                            ->addAttributeToSelect(array('id', 'name', 'sku', 'price', 'image', 'description'));
 
         $keywords =  $_GET['keywords'];
         if (!empty ($keywords)) {
@@ -49,6 +49,7 @@ class NowInStore_CatalogBuilder_ProductsController extends Mage_Core_Controller_
                     "sku" => $product->getSku(),
                     "price" => intval($product->getPrice()),
                     "main_image" => $product->getImageUrl(),
+                    "description" => $product->getDescription(),
                     "thumbnail_image" => (string)Mage::helper('catalog/image')->init($product, 'image')->resize(75),
                     "iso_currency_code" => $currency,
                     "url" => $product->getProductUrl(),

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>NowInStore_CatalogBuilder</name>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <stability>stable</stability>
     <license uri="http://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License (GPL)</license>
     <channel>community</channel>
