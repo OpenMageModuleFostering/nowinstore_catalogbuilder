@@ -1,6 +1,4 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
 class NowInStore_CatalogBuilder_ProfileController extends Mage_Core_Controller_Front_Action
 {
     public function indexAction()
