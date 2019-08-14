@@ -66,7 +66,9 @@ class NowInStore_CatalogBuilder_ProductsController extends Mage_Core_Controller_
             }
             $price = floatval($product->getPrice());
             $wholesalePrice = 0;
-            $product->setCustomerGroupId($wholesaleGroup->getId());
+            if (!is_null($wholesaleGroup)) {
+                $product->setCustomerGroupId($wholesaleGroup->getId());
+            }
             $groupPrices = $product->getGroupPrice();
             if (is_null($groupPrices)) {
                 $attribute = $product->getResource()->getAttribute('group_price');
@@ -88,7 +90,6 @@ class NowInStore_CatalogBuilder_ProductsController extends Mage_Core_Controller_
                 "description" => $product->getDescription(),
                 "thumbnail_image" => (string)Mage::helper('catalog/image')->init($product, 'image')->resize(75),
                 "iso_currency_code" => $currency,
-                "g" => $wholesaleGroup->getId(),
                 "url" => $product->getProductUrl(),
                 "variations" => $attributeOptions
             ));
