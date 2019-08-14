@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>NowInStore_CatalogBuilder</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <stability>stable</stability>
     <license uri="http://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License (GPL)</license>
     <channel>community</channel>
@@ -16,9 +16,9 @@ With a few clicks, import all of your Magento products into a beautiful drag and
 </description>
     <notes>First release</notes>
     <authors><author><name>Kwaku Zigah</name><user>kwaku</user><email>kwaku.zigah@nowinstore.com</email></author></authors>
-    <date>2015-07-30</date>
-    <time>16:46:34</time>
-    <contents><target name="magelocal"><dir name="NowInStore"><dir name="CatalogBuilder"><dir name="controllers"><file name="AuthController.php" hash="d64acfc32d9db86b3bb89ac537e2ea91"/><file name="CategoriesController.php" hash="8ac0b1276609c3498926ffe9632a4977"/><file name="ProductsController.php" hash="36dfdb8cd9ff135b3538251aa899bafd"/><file name="ProfileController.php" hash="05679442c999971bad022b2f580331d9"/></dir><dir name="etc"><file name="adminhtml.xml" hash="3d7e6a6f47a3a37945603d5620a49c22"/><file name="config.xml" hash="49fa0f739963089362096c331461ec34"/><file name="config.xml~" hash="fa9eaa937860779735ddee5bc4ec7f5f"/></dir></dir></dir></target></contents>
+    <date>2015-07-31</date>
+    <time>15:28:35</time>
+    <contents><target name="magelocal"><dir name="NowInStore"><dir name="CatalogBuilder"><dir name="controllers"><file name="AuthController.php" hash="d64acfc32d9db86b3bb89ac537e2ea91"/><file name="CategoriesController.php" hash="8ac0b1276609c3498926ffe9632a4977"/><file name="ProductsController.php" hash="36dfdb8cd9ff135b3538251aa899bafd"/><file name="ProfileController.php" hash="05679442c999971bad022b2f580331d9"/></dir><dir name="etc"><file name="adminhtml.xml" hash="3d7e6a6f47a3a37945603d5620a49c22"/><file name="config.xml" hash="ed9b0f31d97b98858f289bfac451de4d"/><file name="config.xml~" hash="fa9eaa937860779735ddee5bc4ec7f5f"/></dir></dir></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.5.0</min><max>1.9</max></package></required></dependencies>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
