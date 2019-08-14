@@ -1,12 +1,23 @@
 <?php
 class NowInStore_CatalogBuilder_CategoriesController extends Mage_Core_Controller_Front_Action
 {
-    public function addCategories(&$categories, $category_collection) {
-
-
-    }
     public function indexAction()
     {
+        $debug = $_GET['debug'];
+        if ($debug) {
+            Mage::setIsDeveloperMode(true);
+            ini_set('display_errors', 1);
+            ini_set('display_startup_errors', 1);
+            if ($debug == 'all')
+                error_reporting(E_ALL);
+            if ($debug == 'info')
+                 error_reporting(E_ERROR | E_WARNING | E_PARSE);
+            if ($debug == 'warning')
+                 error_reporting(E_ERROR | E_WARNING);
+            if ($debug == 'error')
+                 error_reporting(E_ERROR);
+        }
+
         $category_collection = Mage::getModel('catalog/category')
                 ->getCollection()
                 ->addAttributeToSelect('*')

@@ -4,10 +4,26 @@ class NowInStore_CatalogBuilder_ProductsController extends Mage_Core_Controller_
 {
     public function indexAction()
     {
+        $debug = $_GET['debug'];
+        if ($debug) {
+            Mage::setIsDeveloperMode(true);
+            ini_set('display_errors', 1);
+            ini_set('display_startup_errors', 1);
+            if ($debug == 'all')
+                error_reporting(E_ALL);
+            if ($debug == 'info')
+                 error_reporting(E_ERROR | E_WARNING | E_PARSE);
+            if ($debug == 'warning')
+                 error_reporting(E_ERROR | E_WARNING);
+            if ($debug == 'error')
+                 error_reporting(E_ERROR);
+        }
+
         $page = $_GET['page'];
         if (empty($page)) {
             $page = 1;
         }
+        $page = $_GET['ds'];
         $product_collection = Mage::getModel('catalog/product')
             ->getCollection()
 //                            ->addAttributeToFilter('is_active', 1)
