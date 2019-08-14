@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>NowInStore_CatalogBuilder</name>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <stability>stable</stability>
     <license uri="http://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License (GPL)</license>
     <channel>community</channel>
@@ -17,8 +17,8 @@ With a few clicks, import all of your Magento products into a beautiful drag and
     <notes>Fixed package installation</notes>
     <authors><author><name>Kwaku Zigah</name><user>kwaku</user><email>kwaku.zigah@nowinstore.com</email></author></authors>
     <date>2015-08-03</date>
-    <time>04:13:14</time>
-    <contents><target name="magecommunity"><dir name="NowInStore"><dir name="CatalogBuilder"><dir name="controllers"><file name="AuthController.php" hash="5a7a8fadde17b4ae86977dacbe11fcfe"/><file name="CategoriesController.php" hash="98444235e8a852b3755efb406cf592c2"/><file name="ProductsController.php" hash="eb1ee82edbc321d38c49e6b9607b5c23"/><file name="ProfileController.php" hash="8bb73c8e84c980415e434a69b6ddcc13"/></dir><dir name="etc"><file name="adminhtml.xml" hash="3d7e6a6f47a3a37945603d5620a49c22"/><file name="config.xml" hash="512f267e90d16f9e75e1bd84807e14c2"/><file name="config.xml~" hash="fa9eaa937860779735ddee5bc4ec7f5f"/></dir></dir></dir></target></contents>
+    <time>04:24:20</time>
+    <contents><target name="magecommunity"><dir name="NowInStore"><dir name="CatalogBuilder"><dir name="controllers"><file name="AuthController.php" hash="5a7a8fadde17b4ae86977dacbe11fcfe"/><file name="CategoriesController.php" hash="98444235e8a852b3755efb406cf592c2"/><file name="ProductsController.php" hash="eb1ee82edbc321d38c49e6b9607b5c23"/><file name="ProfileController.php" hash="8bb73c8e84c980415e434a69b6ddcc13"/></dir><dir name="etc"><file name="adminhtml.xml" hash="3d7e6a6f47a3a37945603d5620a49c22"/><file name="config.xml" hash="042d129242685c23e27af2470935cd80"/><file name="config.xml~" hash="fa9eaa937860779735ddee5bc4ec7f5f"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="NowInStore_CatalogBuilder.xml" hash="a087b751cea9700fd21fa59bb3d0a666"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
