@@ -1,23 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>NowInStore_CatalogBuilder</name>
-    <version>1.3.2</version>
+    <version>1.4.0</version>
     <stability>stable</stability>
     <license>GPL</license>
     <channel>community</channel>
     <extends/>
     <summary>Automatically create line sheets, catalogs and flyers of your products that you can print or share online.</summary>
-    <description>Our line sheet and catalog builder automatically creates professional and customizable catalogs and flyers for your Magento listings. &#xD;
-&#xD;
-Our blog and online-chat experts are on hand that share tips and tricks on how you can use catalogs and flyers to grow your sales. &#xD;
-&#xD;
-With a few clicks, import all of your Magento products into a beautiful drag and drop interface. Easily choose and organize each page of your catalog or flyer, use different layouts, customize your front and back covers and add a wholesale contract and order forms.</description>
-    <notes>Fix issue with rounded prices&#xD;
-Added wholesale price</notes>
-    <authors><author><name>Kwaku</name><user>Zigah</user><email>kwaku.zigah@nowinstore.com</email></author></authors>
-    <date>2017-04-25</date>
-    <time>20:48:00</time>
-    <contents><target name="magecommunity"><dir name="NowInStore"><dir name="CatalogBuilder"><dir name="controllers"><file name="AuthController.php" hash="083a894900d82e353543cd762da9e157"/><file name="CategoriesController.php" hash="9e643060ad40ef54c13f2b72f943402b"/><file name="CategoriesController.php~" hash="abc588a995c3c8797b824e0c04c57295"/><file name="ProductsController.php" hash="0493192bbfe5bef8c3b0d312e607a1f0"/><file name="ProductsController.php~" hash="4feb53033fcc499c450917c2c645a0d4"/><file name="ProfileController.php" hash="f720bea41f8a18d7296d91a81f4a4722"/></dir><dir name="etc"><file name="adminhtml.xml" hash="3d7e6a6f47a3a37945603d5620a49c22"/><file name="config.xml" hash="b10c591395a3f476f452e06885322d65"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="NowInStore_CatalogBuilder.xml" hash="a087b751cea9700fd21fa59bb3d0a666"/></dir></target></contents>
+    <description>Our line sheet and catalog builder automatically creates professional and customizable catalogs and flyers for your Magento listings. Our blog and online-chat experts are on hand that share tips and tricks on how you can use catalogs and flyers to grow your sales. With a few clicks, import all of your Magento products into a beautiful drag and drop interface. Easily choose and organize each page of your catalog or flyer, use different layouts, customize your front and back covers and add a wholesale contract and order forms.</description>
+    <notes>Fixed 404 error</notes>
+    <authors><author><name>Now In Store</name><user>NowInStore</user><email>support@nowinstore.com</email></author></authors>
+    <date>2017-05-10</date>
+    <time>12:53:03</time>
+    <contents><target name="magecommunity"><dir name="NowInStore"><dir name="CatalogBuilder"><dir name="controllers"><file name="AuthController.php" hash="c8cd4764fce9923be33eb6e0733dbe81"/><file name="CategoriesController.php" hash="3a3837f4d142253a3494ffea9deef682"/><file name="ProductsController.php" hash="80011eba2e8fb290eb212381666591d6"/><file name="ProfileController.php" hash="4ef062ac126c49e3b1c43b3f7eed6e11"/></dir><dir name="etc"><file name="config.xml" hash="b3473fad03bfdb824d9f319556ae25a8"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="nowinstore.xml" hash="0eb5a7a8805f53bce96eedfee38e3328"/></dir><dir name="template"><dir name="page"><file name="nowinstore.phtml" hash="c96ca5c8fd833ea83decaa035de738e6"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="NowInStore_CatalogBuilder.xml" hash="a087b751cea9700fd21fa59bb3d0a666"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
