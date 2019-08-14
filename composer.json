@@ -1,12 +1,12 @@
 {
     "name": "OpenMageModuleFostering/NowInStore_CatalogBuilder",
     "type": "magento-module",
-    "license": "GNU-General-Public-License-(GPL)",
+    "license": "GPL",
     "homepage": "",
-    "description": "Create products printable & online catalogs ",
+    "description": "Automatically create line sheets, catalogs and flyers of your products that you can print or share online.",
     "authors": [
     {
-        "name": "Kwaku Zigah",
+        "name": "Kwaku",
         "email": "kwaku.zigah@nowinstore.com"
     }
 ],

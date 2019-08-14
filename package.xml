@@ -1,24 +1,22 @@
 <?xml version="1.0"?>
 <package>
     <name>NowInStore_CatalogBuilder</name>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <stability>stable</stability>
-    <license uri="http://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License (GPL)</license>
+    <license>GPL</license>
     <channel>community</channel>
     <extends/>
-    <summary>Create products printable &amp; online catalogs </summary>
-    <description>Now In Store will guide you in your process as you create and use catalogs and flyers and help you gain control over your sales.&#xD;
+    <summary>Automatically create line sheets, catalogs and flyers of your products that you can print or share online.</summary>
+    <description>Our line sheet and catalog builder automatically creates professional and customizable catalogs and flyers for your Magento listings. &#xD;
 &#xD;
-Our catalog and flyer builder automatically creates professional and customizable catalogs and flyers for your Magento listings in under 30 seconds. Our blog and online-chat experts are on hand that share tips and tricks on how you can use catalogs and flyers to grow your sales.&#xD;
+Our blog and online-chat experts are on hand that share tips and tricks on how you can use catalogs and flyers to grow your sales. &#xD;
 &#xD;
-&#xD;
-With a few clicks, import all of your Magento products into a beautiful drag and drop interface. Easily choose and organize each page of your catalog or flyer, use different layouts, customize your front and back covers and add a wholesale contract and order forms.&#xD;
-</description>
-    <notes>Improved API</notes>
-    <authors><author><name>Kwaku Zigah</name><user>kwaku</user><email>kwaku.zigah@nowinstore.com</email></author></authors>
-    <date>2015-07-31</date>
-    <time>15:28:35</time>
-    <contents><target name="magelocal"><dir name="NowInStore"><dir name="CatalogBuilder"><dir name="controllers"><file name="AuthController.php" hash="d64acfc32d9db86b3bb89ac537e2ea91"/><file name="CategoriesController.php" hash="8ac0b1276609c3498926ffe9632a4977"/><file name="ProductsController.php" hash="36dfdb8cd9ff135b3538251aa899bafd"/><file name="ProfileController.php" hash="05679442c999971bad022b2f580331d9"/></dir><dir name="etc"><file name="adminhtml.xml" hash="3d7e6a6f47a3a37945603d5620a49c22"/><file name="config.xml" hash="ed9b0f31d97b98858f289bfac451de4d"/><file name="config.xml~" hash="fa9eaa937860779735ddee5bc4ec7f5f"/></dir></dir></dir></target></contents>
+With a few clicks, import all of your Magento products into a beautiful drag and drop interface. Easily choose and organize each page of your catalog or flyer, use different layouts, customize your front and back covers and add a wholesale contract and order forms.</description>
+    <notes>Repackaging</notes>
+    <authors><author><name>Kwaku</name><user>Zigah</user><email>kwaku.zigah@nowinstore.com</email></author></authors>
+    <date>2016-05-25</date>
+    <time>21:22:13</time>
+    <contents><target name="magecommunity"><dir name="NowInStore"><dir name="CatalogBuilder"><dir name="controllers"><file name="AuthController.php" hash="083a894900d82e353543cd762da9e157"/><file name="CategoriesController.php" hash="abc588a995c3c8797b824e0c04c57295"/><file name="ProductsController.php" hash="c2a8b30a4f6c92bd87c25365f18b8b42"/><file name="ProfileController.php" hash="f720bea41f8a18d7296d91a81f4a4722"/></dir><dir name="etc"><file name="adminhtml.xml" hash="3d7e6a6f47a3a37945603d5620a49c22"/><file name="config.xml" hash="b10c591395a3f476f452e06885322d65"/><file name="config.xml~" hash="542bda660e3269cf774df308fd389a19"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="NowInStore_CatalogBuilder.xml" hash="a087b751cea9700fd21fa59bb3d0a666"/></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+    <dependencies><required><php><min>5.2.0</min><max>5.6.21</max></php></required></dependencies>
 </package>
