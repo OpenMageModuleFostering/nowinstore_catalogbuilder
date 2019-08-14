@@ -23,7 +23,6 @@ class NowInStore_CatalogBuilder_ProductsController extends Mage_Core_Controller_
         if (empty($page)) {
             $page = 1;
         }
-        $page = $_GET['ds'];
         $product_collection = Mage::getModel('catalog/product')
             ->getCollection()
 //                            ->addAttributeToFilter('is_active', 1)
@@ -54,15 +53,15 @@ class NowInStore_CatalogBuilder_ProductsController extends Mage_Core_Controller_
             }
         }
         foreach ($product_collection as $product) {
+            $attributeOptions = array();
             if ($product->isConfigurable()) {
                 $productAttributeOptions = $product->getTypeInstance()->getConfigurableAttributesAsArray($product);
-            }
-            $attributeOptions = array();
-            foreach ($productAttributeOptions as $productAttribute) {
-                foreach ($productAttribute['values'] as $attribute) {
-                    $label = $productAttribute['label'];
-                    $valueIndex = $attribute['value_index'];
-                    $attributeOptions[$label][$valueIndex] = $attribute['store_label'];
+                foreach ($productAttributeOptions as $productAttribute) {
+                    foreach ($productAttribute['values'] as $attribute) {
+                        $label = $productAttribute['label'];
+                        $valueIndex = $attribute['value_index'];
+                        $attributeOptions[$label][$valueIndex] = $attribute['store_label'];
+                    }
                 }
             }
             $price = floatval($product->getPrice());
